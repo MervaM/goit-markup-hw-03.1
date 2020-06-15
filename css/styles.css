@@ -625,6 +625,7 @@ a {
 }
 
 .footer {
+  padding-top: 45px;
   background-color: #2f303a;
   color: var(--footer-color);
   font-style: normal;
@@ -695,7 +696,12 @@ footer {
   margin-bottom: 21px;
 }
 
-.footer-social {
+.footer-icons,
+.footer-picture {
+  background: #2f303a;
+}
+
+.foot .footer-social {
   display: block;
   text-align: left;
   margin-left: 69px;
