@@ -621,14 +621,14 @@ a {
 /*footer*/
 
 .footer {
-  display: flex;
-}
-
-.footer {
   padding-top: 45px;
   background-color: #2f303a;
   color: var(--footer-color);
   font-style: normal;
+}
+
+.footer-wrapper {
+  display: flex;
 }
 
 /*footer logo*/
@@ -645,6 +645,7 @@ footer {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
+  padding-top: 0;
 }
 
 .logo-studio {
@@ -690,18 +691,18 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 56px;
+
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 21px;
 }
 
-.footer-icons,
-.footer-picture {
-  background: #2f303a;
+.footer-picture:hover,
+.footer-picture:focus {
+  background-color: var(--accent-color);
 }
 
-.foot .footer-social {
+.footer-social {
   display: block;
   text-align: left;
   margin-left: 69px;
@@ -711,30 +712,28 @@ footer {
   display: flex;
   list-style: none;
   padding: 0;
-}
-
-.mailing {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-top: 56px;
-  margin-left: 94px;
-  margin-right: 0;
-  margin-bottom: 21px;
-}
-
-.footer-copyright {
-  display: block;
-  align-items: center;
+  margin-top: 20px;
   margin-bottom: 0;
+  justify-content: center;
+}
+
+.footer-item {
+  margin-right: 30px;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
+.copyright {
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  text-align: center;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 12px;
-  line-height: 2;
+  line-height: 0.5;
   color: rgba(255, 255, 255, 0.4);
-  background-color: #2f303a;
-
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  width: 1700px;
 }
