@@ -633,13 +633,6 @@ a {
 
 /*footer logo*/
 
-.footer-contacts {
-  display: block;
-  margin-top: 48px;
-  margin-bottom: 88px;
-  margin-left: 30px;
-}
-
 .logo,
 footer {
   font-weight: 700;
@@ -663,18 +656,17 @@ footer {
 }
 
 .adress-list {
-  margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
+  color: var(--footer-color);
 }
 
 /*footer contacts and address*/
 
 .contacts-footer {
   padding-bottom: 9px;
-  margin: 0;
   color: rgba(255, 255, 255, 0.6);
   font-weight: normal;
   font-size: 14px;
